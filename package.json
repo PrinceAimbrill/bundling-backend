@@ -1,0 +1,27 @@
+{
+  "name": "bundling-server",
+  "version": "1.0.0",
+  "description": "Node Js Rest API Using Type ORM Sequelize and MYSQL Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "sequelize",
+    "express",
+    "rest",
+    "api",
+    "mysql"
+  ],
+  "author": "aimbrill",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.25.3"
+  }
+}
